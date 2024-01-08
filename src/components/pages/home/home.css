@@ -1,0 +1,20 @@
+.logo-grid {
+    display: flex;
+    overflow: hidden;
+    width: 100%; /* Assurez-vous que le conteneur couvre toute la largeur disponible */
+}
+
+.logo-grid img, .logo-grid svg {
+    position: relative; /* Définir la position comme relative pour permettre les translations */
+    margin-left: calc(100% + 30px); /* Positionner le premier logo en dehors du conteneur */
+    animation: move-left 10s linear infinite; /* Ajustez la durée et le délai selon vos besoins */
+}
+
+@keyframes move-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Déplacez tous les logos vers la gauche */
+    }
+}

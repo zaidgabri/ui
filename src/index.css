@@ -1,0 +1,74 @@
+@font-face{
+  font-family: Pop;
+  src: url(./assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+.Pop{
+  font-family: Pop;
+}
+
+
+@font-face{
+  font-family: PopL;
+  src: url(./assets/fonts/poppins/Poppins-Light.ttf);
+}
+
+.PopL{
+  font-family: PopL;
+}
+
+@font-face{
+  font-family: PopM;
+  src: url(./assets/fonts/poppins/Poppins-Medium.ttf);
+}
+
+.PopM{
+  font-family: PopM;
+}
+
+@font-face{
+  font-family: PopT;
+  src: url(./assets/fonts/poppins/Poppins-Thin.ttf);
+}
+
+.PopT{
+  font-family: PopT;
+}
+
+@font-face{
+  font-family: PopB;
+  src: url(./assets/fonts/poppins/Poppins-Bold.ttf);
+}
+
+.PopB{
+  font-family: PopB;
+}
+
+@font-face{
+  font-family: PopK;
+  src: url(./assets/fonts/poppins/Poppins-Black.ttf);
+}
+
+.PopK{
+  font-family: PopK;
+}
+
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 9px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 3px; /* Round the corners of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff; /* Set the color of the scrollbar track */
+}
+
+
+.css-zki9ed{
+  background-color: #fff;
+}
