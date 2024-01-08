@@ -8,11 +8,13 @@ pipeline {
         DOCKER_IMAGE = "algabrizaid/reactapp:${imageTag}"
     }
 
-    tools {
-        nodejs 'nodejs'
-    }
-
     stages {
+        stage('Clean Workspace') {
+            steps {
+                deleteDir()
+            }
+        }
+
         stage('Checkout SCM') {
             steps {
                 checkout scmGit(
@@ -26,7 +28,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'npm audit fix --force'
+                    // Your existing npm install and build steps go here
                     sh 'npm install'
                 }
             }
