@@ -18,7 +18,7 @@ pipeline {
                 checkout scmGit(
                     branches: [[name: 'main']],
                     extensions: [],
-                    userRemoteConfigs: [[credentialsId: 'git', url: 'https://github.com/BourassIS/BOAfront.git']]
+                    userRemoteConfigs: [[credentialsId: 'git', url: 'https://github.com/zaidgabri/ui.git']]
                 )
             }
         }
